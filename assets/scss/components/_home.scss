@@ -1,0 +1,84 @@
+/*=============== HOME ===============*/
+.home {
+   &__bg {
+      position: relative;
+      background-image: url('img/bg.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-color: rgba(0, 0, 0, 0.7);
+
+      &::after {
+         content: '';
+         position: absolute;
+         top: 0rem;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background: #000;
+         opacity: 0.5;
+      }
+   }
+
+   &__container {
+      gap: 3rem;
+   }
+
+   &__logo {
+      position: relative;
+      display: flex;
+      margin-top: 8rem;
+      justify-content: center;
+      z-index: $z-tooltip;
+
+      &::after {
+         content: '';
+         position: absolute;
+         bottom: -1rem;
+         width: 40%;
+         height: 2px;
+         background-color: $first-color;
+      }
+   }
+
+   &__description {
+      display: flex;
+      flex-direction: column;
+      row-gap: 1rem;
+      align-items: center;
+      margin-bottom: 6rem;
+      z-index: $z-tooltip;
+   }
+
+   &__icon {
+      width: 1.8rem;
+      margin-right: 0.5rem;
+   }
+
+   &__title {
+      display: inline;
+      font-size: $h1-font-size;
+      font-weight: $font-semi-bold;
+      align-self: end;
+      line-height: 1rem;
+      color: $first-color;
+
+      &:hover {
+         cursor: default;
+      }
+   }
+
+   &__subtitle {
+      font-size: $h3-font-size;
+      font-weight: $font-semi-bold;
+      line-height: 2rem;
+      color: #fbfefd;
+      text-align: center;
+   }
+
+   &__button {
+      font-weight: $font-medium;
+      margin: 0;
+      padding: 0.5rem 1rem;
+   }
+}

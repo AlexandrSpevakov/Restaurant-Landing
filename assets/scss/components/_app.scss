@@ -1,0 +1,37 @@
+/*=============== APP ===============*/
+.app {
+   &__data {
+      text-align: center;
+   }
+
+   &__description {
+      margin-bottom: $mb-5;
+   }
+
+   &__stores {
+      display: grid;
+      grid-template-columns: max-content;
+      justify-content: center;
+      row-gap: 0.5rem;
+      margin-bottom: $mb-4;
+   }
+
+   &__button {
+      font-weight: $font-semi-bold;
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+      margin-top: 0;
+      border-radius: 3rem;
+   }
+
+   &__img {
+      width: 250px;
+      justify-self: center;
+      fill: $first-color;
+
+      &-blob {
+         fill: #b9e0c5;
+      }
+   }
+}

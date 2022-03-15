@@ -1,0 +1,112 @@
+/*=============== FOOTER ===============*/
+.footer {
+   background-color: var(--footer-color);
+
+   &__container {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      row-gap: 2rem;
+   }
+
+   &__content {
+      font-style: normal;
+   }
+
+   &__icon {
+      color: $first-color;
+      width: 1.25rem;
+   }
+
+   &__logo {
+      font-size: $h2-font-size;
+      color: $first-color;
+      font-weight: $font-semi-bold;
+
+      &:hover {
+         color: $first-color;
+      }
+   }
+
+   &__description {
+      display: block;
+      font-size: $small-font-size;
+      margin: 0.25rem 0 $mb-3;
+   }
+
+   &__social {
+      font-size: 1.7rem;
+      color: var(--title-color);
+      margin-right: $mb-1;
+      cursor: default;
+
+      &:hover {
+         color: initial;
+      }
+
+      &-icon {
+         cursor: pointer;
+         transition: 0.2s;
+
+         &:hover {
+            color: $first-color;
+         }
+      }
+   }
+
+   &__title {
+      font-size: $h2-font-size;
+      color: var(--title-color);
+      margin-bottom: $mb-2;
+   }
+
+   &__link {
+      display: inline-block;
+      display: flex;
+      color: var(--text-color);
+      margin-bottom: $mb-1;
+
+      &:hover {
+         color: $first-color;
+      }
+
+      &-icon {
+         margin-right: 0.5rem;
+      }
+
+      &-map {
+         @extend .footer__link;
+         line-height: 1.9rem;
+      }
+   }
+
+   &__item {
+      margin-bottom: $mb-1;
+   }
+
+   &__support {
+      font-size: $small-font-size;
+      color: $copy-color;
+      margin-top: 4rem;
+      text-align: center;
+
+      &-link {
+         color: $copy-color;
+
+         &:hover {
+            color: $first-color;
+         }
+      }
+   }
+
+   &__links {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: $mb-1;
+   }
+
+   &__copy {
+      text-align: center;
+      font-size: $small-font-size;
+      color: $copy-color;
+      margin-top: 1.5rem;
+   }
+}

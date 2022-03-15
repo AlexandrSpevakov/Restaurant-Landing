@@ -1,0 +1,48 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+// =============== VARIABLES CSS ===============
+$header-height: 3rem;
+
+//---------- Colors ----------
+/*========== Variables for dark/light mode ==========*/
+:root {
+   --title-color: #393939;
+   --text-color: #707070;
+   --body-color: #fbfefd;
+   --header-color: #f0f0f0;
+   --container-color: #fff;
+   --footer-color: #afafaf;
+   --accordion-color: #e2fde8;
+}
+
+$first-color: #16983f;
+$first-color-alt: #0d5925;
+$text-color-light: #a6a6a6;
+$copy-color: #3b3c3c;
+
+//---------- Font and typography ----------
+$body-font: 'Montserrat', sans-serif;
+$biggest-font-size: 2.25rem;
+$h1-font-size: 1.5rem;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1rem;
+$normall-font-size: 0.938rem;
+$small-font-size: 0.813rem;
+$smaller-font-size: 0.75rem;
+
+//---------- Font weight ----------
+$font-medium: 500;
+$font-semi-bold: 600;
+
+//---------- Margenes ----------
+$mb-1: 0.5rem;
+$mb-2: 1rem;
+$mb-3: 1.5rem;
+$mb-4: 2rem;
+$mb-5: 2.5rem;
+$mb-6: 3rem;
+
+//---------- z index ----------
+$z-tooltip: 10;
+$z-fixed: 20;

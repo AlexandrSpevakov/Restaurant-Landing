@@ -1,0 +1,37 @@
+/*=============== REUSABLE CSS CLASSES ===============*/
+.section {
+   padding: 4rem 0 2rem;
+
+   &-title,
+   &-subtitle {
+      text-align: center;
+   }
+
+   &-title {
+      font-size: $h1-font-size;
+      font-weight: $font-semi-bold;
+      color: var(--title-color);
+      margin-bottom: $mb-3;
+      line-height: 2.3rem;
+   }
+
+   &-subtitle {
+      display: block;
+      color: $first-color;
+      font-weight: $font-medium;
+      font-size: $h3-font-size;
+      margin-bottom: $mb-1;
+   }
+}
+
+/*=============== LAYOUT ===============*/
+.container {
+   max-width: 960px;
+   width: calc(100% - 2rem);
+   margin: 0 $mb-2;
+}
+
+.grid {
+   display: grid;
+   gap: 1.5rem;
+}

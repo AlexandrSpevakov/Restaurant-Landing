@@ -1,0 +1,44 @@
+/*=============== SERVICES ===============*/
+.services {
+   &__container {
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      row-gap: 3.5rem;
+      padding-top: 3.5rem;
+   }
+
+   &__content {
+      text-align: center;
+   }
+
+   &__icon {
+      display: block;
+      font-size: 5rem;
+      height: 5rem;
+      color: $first-color;
+
+      &:before {
+         position: absolute;
+         text-align: center;
+      }
+   }
+
+   &__img {
+      width: 8rem;
+      height: 5rem;
+      padding-right: 1rem;
+
+      &-truck {
+         width: 10rem;
+      }
+   }
+
+   &__title {
+      font-size: $h2-font-size;
+      color: var(--title-color);
+      margin: $mb-1 0;
+   }
+
+   &__description {
+      padding: 1rem 1rem 0;
+   }
+}

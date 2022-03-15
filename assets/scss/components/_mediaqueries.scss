@@ -1,0 +1,167 @@
+/*=============== MEDIA QUERIES ===============*/
+/*========== For medium devices ==========*/
+@media screen and (min-width: 720px) {
+   .nav {
+      height: 4.5rem;
+
+      &__menu {
+         width: initial;
+         padding: 0;
+         position: initial;
+         background-color: initial;
+         box-shadow: none;
+      }
+
+      &__list {
+         display: flex;
+      }
+
+      &__item {
+         margin-left: 2.5rem;
+         margin-bottom: 0;
+      }
+
+      &__toggle {
+         display: none;
+      }
+   }
+
+   .change-theme {
+      position: initial;
+      padding-left: 9px;
+   }
+
+   .menu__container {
+      margin-top: $mb-6;
+   }
+
+   .menu {
+      &__container {
+         grid-template-columns: repeat(3, minmax(auto, 250px));
+      }
+
+      &__content {
+         padding: 1.5rem;
+      }
+   }
+
+   .about__container,
+   .app {
+      margin-top: 3rem;
+   }
+
+   .about {
+      &__container {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+      }
+
+      &__img {
+         order: -1;
+         align-self: center;
+      }
+
+      &__list {
+         display: none;
+      }
+   }
+
+   .app {
+      &__container {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+      }
+
+      &__img {
+         width: 350px;
+         align-self: center;
+      }
+   }
+
+   .contact__description {
+      max-width: 400px;
+      margin: 0 auto;
+   }
+}
+
+/*========== For large devices ==========*/
+@media screen and (min-width: 1024px) {
+   .container {
+      margin: 0 auto;
+   }
+
+   .header {
+      font-size: 1.1rem;
+   }
+
+   .home__bg {
+      height: 100vh;
+   }
+
+   .home__logo {
+      margin-top: 13rem;
+   }
+
+   .nav {
+      &__icon {
+         width: 1.5rem;
+      }
+
+      &__logo-name {
+         font-size: 1.5rem;
+      }
+   }
+
+   .change-theme {
+      padding-left: 20px;
+   }
+
+   .home {
+      &__title {
+         font-size: 1.8rem;
+      }
+
+      &__subtitle {
+         font-size: 1.3rem;
+      }
+
+      &__button {
+         font-size: 1rem;
+      }
+   }
+
+   .about__container,
+   .app__container {
+      column-gap: 7rem;
+   }
+
+   .footer__container {
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      row-gap: 3rem;
+      column-gap: 3rem;
+
+      address {
+         order: 0;
+      }
+   }
+
+   .scroll__up {
+      right: 2rem;
+   }
+
+   .show-scroll {
+      right: 2rem;
+      bottom: 3rem;
+   }
+}
+
+@media screen and (min-width: 1280px) {
+   .scroll__up {
+      right: 3rem;
+   }
+
+   .show-scroll {
+      right: 3rem;
+      bottom: 4rem;
+   }
+}

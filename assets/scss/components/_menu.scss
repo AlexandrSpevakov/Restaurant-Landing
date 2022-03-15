@@ -1,0 +1,89 @@
+/*=============== MENU ===============*/
+.menu {
+   &__container {
+      grid-template-columns: minmax(auto, 300px);
+      justify-content: center;
+   }
+
+   &__content {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--container-color);
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 4px rgba(3, 74, 40, 0.15);
+      padding: 0.75rem;
+      overflow: hidden;
+
+      &:hover {
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+         .menu__button {
+            right: 0;
+         }
+
+         .menu__price-discount {
+            font-weight: $font-semi-bold;
+            color: $first-color;
+         }
+      }
+   }
+
+   &__icon {
+      width: 25px;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+   }
+
+   &__img {
+      width: 140px;
+      height: 140px;
+      align-self: center;
+      margin-bottom: $mb-2;
+   }
+
+   &__name,
+   &__price {
+      font-weight: $font-semi-bold;
+      color: var(--title-color);
+   }
+   &__name {
+      font-size: $normall-font-size;
+      text-align: center;
+   }
+
+   &__detail {
+      font-size: $small-font-size;
+      text-align: center;
+      line-height: 0.7rem;
+      margin-bottom: $mb-3;
+   }
+
+   &__price {
+      &-discount {
+         font-weight: $font-semi-bold;
+         color: $first-color;
+      }
+
+      &-old {
+         font-size: 0.6rem;
+         font-weight: normal;
+         color: var(--title-color);
+         text-decoration: line-through;
+      }
+   }
+
+   &__currency {
+      font-size: $smaller-font-size;
+   }
+
+   &__button {
+      position: absolute;
+      bottom: 0;
+      right: -3rem;
+      display: flex;
+      padding: 0.3rem 0.813rem;
+      border-radius: 0.5rem 0;
+   }
+}

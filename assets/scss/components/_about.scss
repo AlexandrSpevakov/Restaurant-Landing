@@ -1,0 +1,73 @@
+/*=============== ABOUT ===============*/
+.about {
+   &__data {
+      text-align: center;
+   }
+
+   &__decription {
+      margin-bottom: $mb-4;
+   }
+
+   &__list {
+      &-header {
+         position: relative;
+         max-width: 380px;
+         margin: 0 auto;
+         padding: 1rem 0;
+         font-weight: $font-semi-bold;
+         color: var(--title-color);
+         background-color: var(--accordion-color);
+         border-radius: 0.5rem 0.5rem 0 0;
+         transition: 0.3s;
+      }
+
+      &-arrow {
+         display: block;
+         font-size: 3rem;
+         margin-top: 1rem;
+         transition: 0.2s;
+
+         &:hover {
+            cursor: pointer;
+            color: $first-color-alt;
+         }
+      }
+
+      &-content {
+         display: flex;
+         flex-direction: column;
+         row-gap: 1rem;
+         max-width: 380px;
+         margin: 0 auto;
+         padding: 0 0.5rem;
+         color: var(--title-color);
+         overflow: hidden;
+         height: 0;
+         border-radius: 0 0 0.5rem 0.5rem;
+         transition: 0.3s;
+      }
+
+      &-property {
+         display: flex;
+         column-gap: 0.5rem;
+      }
+   }
+
+   &__img {
+      width: 280px;
+      border-radius: 0.5rem;
+      justify-self: center;
+   }
+}
+
+/*===== ABOUT ACCORDION =====*/
+.accordion-open {
+   & .about__list-header,
+   & .about__list-content {
+      background-color: $first-color;
+   }
+
+   & .about__list-arrow {
+      transform: rotate(180deg);
+   }
+}
