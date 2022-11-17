@@ -1,6 +1,6 @@
 # Salad Restaurant Landing 🥗
 
-### [View Deployment](https://alexandrspevakov.github.io/resaurant-landing/) &nbsp; 🖥️
+### [View Deployment](https://alexandrspevakov.github.io/restaurant-landing/) &nbsp; 🖥️
 
 <br/>
 
