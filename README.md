@@ -14,7 +14,6 @@
   * BEM
   
 ### Additional
-  * Scroll Reveal (animation library)
   * Remix Icons (icons library)
   * Bootsrap (only a few parts)
   
