@@ -11,9 +11,9 @@
 - HTML5
 - CSS3
 - JavaScript ES6 +
+- Gulp.js
 - SCSS
 - BEM
-- GulpJS
 
 ### Additional
 
