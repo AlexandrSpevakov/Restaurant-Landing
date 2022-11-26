@@ -7,20 +7,24 @@
 ## Technologies ⚙️
 
 ### Main
-  * HTML5
-  * CSS3
-  * JavaScript ES6 +
-  * SCSS
-  * BEM
-  
+
+- HTML5
+- CSS3
+- JavaScript ES6 +
+- SCSS
+- BEM
+- GulpJS
+
 ### Additional
-  * Remix Icons (icons library)
-  * Bootsrap (only a few parts)
-  
+
+- Remix Icons (icons library)
+- Bootsrap (only a few parts)
+
 ### Features ✨
-  * Responsive Design
-  * Dark and Light Theme
-  
+
+- Responsive Design
+- Dark and Light Theme
+
 <br/>
-  
+
 ## [My Contacts](https://github.com/AlexandrSpevakov#contact-me) &nbsp; 👈
