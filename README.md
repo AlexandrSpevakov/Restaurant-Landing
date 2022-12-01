@@ -1,4 +1,4 @@
-# Salad Restaurant Landing 🥗
+# Salad Restaurant Website 🥗
 
 ### [View Deployment](https://alexandrspevakov.github.io/restaurant-landing/) &nbsp; 🖥️
 
