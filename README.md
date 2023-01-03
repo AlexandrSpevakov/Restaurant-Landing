@@ -4,6 +4,10 @@
 
 <br/>
 
+![Website Preview](/public/img/readme.png)
+
+<br/>
+
 ## Description
 Landing website with implemented logic in plain JavaScript. ECMAScript 6+ standards were used in the development. Base styles for the website and adaptive design were implemented with SCSS, PostCSS and BEM. After all, the project was prepared for deployment with a custom Gulp.js configuration.
 
