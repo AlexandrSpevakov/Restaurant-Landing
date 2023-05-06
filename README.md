@@ -1,6 +1,6 @@
 # Salad Restaurant Website 🥗
 
-### [View Deployment](https://alexandrspevakov.github.io/restaurant-website/) &nbsp; 🖥️
+### [View Deployment](https://sashaspievakov.github.io/restaurant-website/) &nbsp; 🖥️
 
 <br/>
 
