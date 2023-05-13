@@ -878,7 +878,8 @@ body.dark-theme {
     font-size: 1.3rem;
   }
   .home__button {
-    font-size: 1rem;
+    font-size: 1.3rem;
+    padding: 0.6rem 1.3rem;
   }
   .about__container,
   .app__container {
