@@ -1,167 +1,171 @@
 /*=============== MEDIA QUERIES ===============*/
 /*========== For medium devices ==========*/
 @media screen and (min-width: 720px) {
-   .nav {
-      height: 4.5rem;
+  .nav {
+    height: 4.5rem;
 
-      &__menu {
-         width: initial;
-         padding: 0;
-         position: initial;
-         background-color: initial;
-         box-shadow: none;
-      }
-
-      &__list {
-         display: flex;
-      }
-
-      &__item {
-         margin-left: 2.5rem;
-         margin-bottom: 0;
-      }
-
-      &__toggle {
-         display: none;
-      }
-   }
-
-   .change-theme {
+    &__menu {
+      width: initial;
+      padding: 0;
       position: initial;
-      padding-left: 9px;
-   }
+      background-color: initial;
+      box-shadow: none;
+    }
 
-   .menu__container {
-      margin-top: $mb-6;
-   }
+    &__list {
+      display: flex;
+    }
 
-   .menu {
-      &__container {
-         grid-template-columns: repeat(3, minmax(auto, 250px));
-      }
+    &__item {
+      margin-left: 2.5rem;
+      margin-bottom: 0;
+    }
 
-      &__content {
-         padding: 1.5rem;
-      }
-   }
+    &__toggle {
+      display: none;
+    }
+  }
 
-   .about__container,
-   .app {
-      margin-top: 3rem;
-   }
+  .change-theme {
+    position: initial;
+    padding-left: 9px;
+  }
 
-   .about {
-      &__container {
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-      }
+  .menu__container {
+    margin-top: $mb-6;
+  }
 
-      &__img {
-         order: -1;
-         align-self: center;
-      }
+  .menu {
+    &__container {
+      grid-template-columns: repeat(3, minmax(auto, 250px));
+    }
 
-      &__list {
-         display: none;
-      }
-   }
+    &__content {
+      padding: 1.5rem;
+    }
+  }
 
-   .app {
-      &__container {
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-      }
+  .about__container,
+  .app {
+    margin-top: 3rem;
+  }
 
-      &__img {
-         width: 350px;
-         align-self: center;
-      }
-   }
+  .about {
+    &__container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
 
-   .contact__description {
-      max-width: 400px;
-      margin: 0 auto;
-   }
+    &__img {
+      order: -1;
+      align-self: center;
+    }
+
+    &__list {
+      display: none;
+    }
+  }
+
+  .app {
+    &__container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    &__img {
+      width: 350px;
+      align-self: center;
+    }
+  }
+
+  .contact__description {
+    max-width: 400px;
+    margin: 0 auto;
+  }
 }
 
 /*========== For large devices ==========*/
 @media screen and (min-width: 1024px) {
-   .container {
-      margin: 0 auto;
-   }
+  .container {
+    margin: 0 auto;
+  }
 
-   .header {
-      font-size: 1.1rem;
-   }
+  .header {
+    font-size: 1.1rem;
+  }
 
-   .home__bg {
-      height: 100vh;
-   }
+  .home__bg {
+    height: 100vh;
+  }
 
-   .home__logo {
-      margin-top: 13rem;
-   }
+  .home__logo {
+    margin-top: 13rem;
+  }
 
-   .nav {
-      &__icon {
-         width: 1.5rem;
-      }
+  .nav {
+    &__icon {
+      width: 1.5rem;
+    }
 
-      &__logo-name {
-         font-size: 1.5rem;
-      }
-   }
+    &__logo-name {
+      font-size: 1.5rem;
+    }
+  }
 
-   .change-theme {
-      padding-left: 20px;
-   }
+  .change-theme {
+    padding-left: 20px;
+  }
 
-   .home {
-      &__title {
-         font-size: 1.8rem;
-      }
+  .home {
+    &__icon {
+      width: 2.5rem;
+    }
 
-      &__subtitle {
-         font-size: 1.3rem;
-      }
+    &__title {
+      font-size: 2.5rem;
+    }
 
-      &__button {
-         font-size: 1rem;
-      }
-   }
+    &__subtitle {
+      font-size: 1.3rem;
+    }
 
-   .about__container,
-   .app__container {
-      column-gap: 7rem;
-   }
+    &__button {
+      font-size: 1rem;
+    }
+  }
 
-   .footer__container {
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      row-gap: 3rem;
-      column-gap: 3rem;
+  .about__container,
+  .app__container {
+    column-gap: 7rem;
+  }
 
-      address {
-         order: 0;
-      }
-   }
+  .footer__container {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    row-gap: 3rem;
+    column-gap: 3rem;
 
-   .scroll__up {
-      right: 2rem;
-   }
+    address {
+      order: 0;
+    }
+  }
 
-   .show-scroll {
-      right: 2rem;
-      bottom: 3rem;
-   }
+  .scroll__up {
+    right: 2rem;
+  }
+
+  .show-scroll {
+    right: 2rem;
+    bottom: 3rem;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-   .scroll__up {
-      right: 3rem;
-   }
+  .scroll__up {
+    right: 3rem;
+  }
 
-   .show-scroll {
-      right: 3rem;
-      bottom: 4rem;
-   }
+  .show-scroll {
+    right: 3rem;
+    bottom: 4rem;
+  }
 }
